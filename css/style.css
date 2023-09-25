@@ -1,0 +1,153 @@
+:root {
+	--color-secondary-color: #0084FD;
+	--color-dark-color: #333333;
+	--color-light-color: #FFFFFF;
+	--color-primary-color: #9792E4;
+	--color-bg-card: #B5DDFF;
+	--color-contrast-color: #FCC060;
+	--color-text: #424242;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CONTAINER */
+.container{
+    padding: 5px;
+}
+
+.col{
+    padding: 10px;
+}
+
+.card{
+    height: 100%;
+}
+/* CONTAINER */
+
+/* UTILITY */
+
+.debug{
+    border: 1px solid black;
+}
+/* sfondi */
+.bg-light{
+    background-color: var(--color-light-color);
+}
+.bg-card{
+    background-color: var(--color-bg-card);
+}
+.bg-primary{
+    background-color: var(--color-primary-color);
+}
+/* sfondi */
+
+
+/* borders */
+.small-br{
+    border-radius: 10px;
+}
+.big-br{
+    border-radius: 20px;
+}
+.circle{
+    border-radius: 50%;
+}
+/* borders */
+
+/* padding */
+.px-10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.py-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.px-20{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.py-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* padding */
+
+
+/* text */
+.text-primary{
+    color: var(--color-primary-color);
+}
+.text-secondary{
+    color: var(--color-secondary-color);
+}
+.text-light{
+    color: var(--color-light-color);
+}
+.text-center{
+    text-align: center;
+}
+.line-height{
+    line-height: 1.5;
+}
+
+h3{
+    font-size: 1.5em;
+}
+/* text */
+
+
+/* buttons */
+.button{
+    padding:6px 40px;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color-light-color);
+    background-color: var(--color-primary-color);
+    border-radius: 15px;
+}
+.button-secondary{
+    background-color: var(--color-secondary-color);
+}
+/* buttons */
+
+
+/* UTILITY */
+
+/* MAIN */
+.card-image{
+    position: relative;
+    top: 15px;
+}
+
+.card-image img{
+    width: 100%;
+}
+
+.icon{
+    font-size: 3em;
+    color: var(--color-secondary-color);
+    margin-bottom: 10px;
+}
+/* MAIN */
+
+
+
+/* HEADER */
+header{
+    background-color: var(--color-secondary-color);
+    color: var(--color-light-color);
+}
+/* HEADER */
+
+
+/* FOOTER */
+footer{
+    background-color: var(--color-dark-color);
+    color: var(--color-light-color)
+}
+/* FOOTER */
